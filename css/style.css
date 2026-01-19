@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.font-open-sans {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+body {
+    background-color: #1A0B2E;
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #412567;
+}
+
+.main-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.navbar .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.navbar .menu li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-button a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: inline-flex;
+    padding: 12px 16px;
+    background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
+    border-radius: 10000px;
+    text-decoration: none;
+
+
+}
+
+.header-button a i {
+    margin-left: 10px;
+}
+
+.hero-section {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero-style1 {
+    max-width: 550px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 101px 0;
+}
+
+.hero-style1 .button {
+    padding: 12px 20px;
+    margin-right: 8px;
+}
+
+.hero-img {
+    background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
+    border: 8px solid #2A186C;
+    padding: 77px 116px;
+    border-radius: 1000px;
+    max-width: 350px;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.hero-img span {
+    background: #00FF88;
+    box-shadow: 0px 3px 27px rgba(0, 255, 136, 0.5);
+    border-radius: 1000px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #1A0B2E;
+    padding: 8px 16px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+    margin-bottom: 24px;
+
+}
+
+.button {
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: inline-flex;
+    padding: 12px 16px;
+    background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
+    border-radius: 1000px;
+    text-decoration: none;
+    display: inline-flex;
+    transition: all 0.4s ease-in-out;
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+.button:hover {
+    background: linear-gradient(48.06deg, #9100F8 16.53%, #FB09B4 49.82%, #F7E93F 81.65%);
+}
+
+.button i {
+    margin-left: 10px;
+}
+
+.button img {
+    margin-right: 10px;
+}
+
+.button.border {
+    background: transparent;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    display: inline-flex
+
+}
+
+.button.border:before {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 0%;
+    background-color: #00FF88;
+    transition: ease-out 0.5s;
+    border-radius: 1000px;
+    z-index: -1;
+}
+.button.border:hover{
+    color: #000;
+}
+
+.button.border:hover:before {
+    height: 100%;
+}
+
+
+/* about-section */
+
+.title-area {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.title-area .sec-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+
+}
+
+.title-area .sec-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 860px;
+    display: block;
+    margin: auto;
+
+
+
+}
+
+.main-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about-container .section-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.about-container .text-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.counter-section {
+    padding: 50px 0 120px 0;
+}
+.fact-wrapp{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
