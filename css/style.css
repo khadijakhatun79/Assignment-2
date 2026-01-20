@@ -429,7 +429,48 @@ color: #00FF88;
     font-size: 25px;
 }
 
+.host-section{
+    padding: 120px 0px;
+}
+.host-area{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 40px;
+gap: 24px;
 
+background: rgba(53, 17, 101, 0.4);
+border-radius: 40px;
+
+}
+.host-content .box-title{
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-bottom: 16px;
+
+}
+.host-content .box-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+
+opacity: 0.6;
+margin-bottom: 16px;
+
+}
+.host-content .icon img{
+width: 40px;
+height: 40px;
+border: 1px solid #533C72;
+margin-right: 8px;
+padding: 10px;
+border-radius: 50%;
+
+}
 /* fotter-section-start */
 .footer-section {
     padding: 120px 0;
